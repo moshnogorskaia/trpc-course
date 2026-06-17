@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec ts-node src/index.ts",
+    "start": "nodemon --exec \"node --import ts-node/esm\" src/index.ts",
     "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@trpc/server": "^11.17.0",
     "typescript": "^6.0.3",
