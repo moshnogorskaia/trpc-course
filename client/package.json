@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@trpc/client": "^11.18.0",
+    "@trpc/server": "^11.18.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
@@ -21,5 +23,8 @@
     "oxlint": "^1.69.0",
     "typescript": "~6.0.2",
     "vite": "^8.1.0"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
   }
 }
